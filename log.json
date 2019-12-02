@@ -1,0 +1,116 @@
+{
+    "_id": "0c8a6879-a590-4db3-ae6e-52706cca77e2",
+    "_rev": "1-5b1f12bdbdfc949227ab445a5c068561",
+    "message_received": {
+      "type": "message_received",
+      "timestamp": "2018-02-06T07:23:07.6341633Z",
+      "textFormat": "plain",
+      "text": "hi",
+      "attachments": [],
+      "entities": [],
+      "address": {
+        "id": "0",
+        "channelId": "skypeforbusiness",
+        "user": {
+          "id": "sip:ccetkg@nus.edu.sg",
+          "name": "Teo Kim Guan"
+        },
+        "conversation": {
+          "isGroup": true,
+          "id": "NWUwOTZkMDEjc2lwOm51c2l0d2F0c29uQG51c3Uub25taWNyb3NvZnQuY29t"
+        },
+        "bot": {
+          "id": "sip:nusitwatson@nusu.onmicrosoft.com",
+          "name": "sip:nusitwatson@nusu.onmicrosoft.com"
+        },
+        "serviceUrl": "https://webpoolsg20r04.infra.lync.com/platformservice/tgt-483f6480e55a5c4fa7f06fdc5e306afc/botframework"
+      },
+      "source": "skypeforbusiness",
+      "raw_message": {
+        "type": "message",
+        "timestamp": "2018-02-06T07:23:07.6341633Z",
+        "textFormat": "plain",
+        "text": "hi",
+        "attachments": [],
+        "entities": [],
+        "address": {
+          "id": "0",
+          "channelId": "skypeforbusiness",
+          "user": {
+            "id": "sip:ccetkg@nus.edu.sg",
+            "name": "Teo Kim Guan"
+          },
+          "conversation": {
+            "isGroup": true,
+            "id": "NWUwOTZkMDEjc2lwOm51c2l0d2F0c29uQG51c3Uub25taWNyb3NvZnQuY29t"
+          },
+          "bot": {
+            "id": "sip:nusitwatson@nusu.onmicrosoft.com",
+            "name": "sip:nusitwatson@nusu.onmicrosoft.com"
+          },
+          "serviceUrl": "https://webpoolsg20r04.infra.lync.com/platformservice/tgt-483f6480e55a5c4fa7f06fdc5e306afc/botframework"
+        },
+        "source": "skypeforbusiness"
+      },
+      "_pipeline": {
+        "stage": "receive"
+      },
+      "user": "skypeforbusiness:sip:ccetkg@nus.edu.sg",
+      "channel": "skypeforbusiness:NWUwOTZkMDEjc2lwOm51c2l0d2F0c29uQG51c3Uub25taWNyb3NvZnQuY29t"
+    },
+    "response": {
+      "intents": [
+        {
+          "intent": "GREETINGS-HELLO",
+          "confidence": 1
+        }
+      ],
+      "entities": [],
+      "input": {
+        "text": "hi"
+      },
+      "output": {
+        "text": [
+          "My name is Watson. How can I help you?"
+        ],
+        "nodes_visited": [
+          "node_1_1512572229401"
+        ],
+        "log_messages": []
+      },
+      "context": {
+        "authenticated": true,
+        "conversation_id": "353f3a8e-5aa6-4d87-b1b5-39a48179628c",
+        "system": {
+          "dialog_stack": [
+            {
+              "dialog_node": "root"
+            }
+          ],
+          "dialog_turn_counter": 1,
+          "dialog_request_counter": 1,
+          "_node_output_map": {
+            "node_1_1512572229401": [
+              0,
+              0
+            ]
+          },
+          "branch_exited": true,
+          "branch_exited_reason": "completed"
+        },
+        "CT_AGE": "1",
+        "counter": 0,
+        "CT_GENDER": "male",
+        "CT_COUNTRY": "SINGAPORE",
+        "CLIENT_NAME": "Sherlock",
+        "user_device": null,
+        "HOMEPAGE_URL": "https://nusit.nus.edu.sg/",
+        "bot_best_friend": "Kim Guan",
+        "CT_OWNER_FIRSTNAME": "Watson",
+        "CT_GENDERPRONOUN_HESHE": "he",
+        "CT_GENDERPRONOUN_HISHER": "his",
+        "CT_GENDERPRONOUN_HIM_HER": "him"
+      }
+    },
+    "time": "2018-02-06T07:23:08.191Z"
+  }

@@ -1,0 +1,23 @@
+{
+  "name": "wa-logs-local",
+  "version": "1.0.0",
+  "description": "",
+  "bin": "index.js",
+  "scripts": {
+    "start": "node --expose-gc --max-old-space-size=8192 --optimize-for-size index.js",
+    "pkg": "pkg . --options expose-gc,max-old-space-size=8192,optimize-for-size --out-path bin"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "console-stamp": "^0.2.9",
+    "dotenv": "^8.2.0",
+    "fast-csv": "^3.4.0",
+    "lodash": "^4.17.15",
+    "moment-timezone": "^0.5.27",
+    "nano": "^8.1.0",
+    "to-boolean": "^1.0.0",
+    "winston": "^3.2.1"
+  }
+}
