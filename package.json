@@ -13,7 +13,7 @@
     "cheerio": "^1.0.0-rc.3",
     "console-stamp": "^0.2.9",
     "dotenv": "^8.2.0",
-    "fast-csv": "^3.4.0",
+    "fast-csv": "^4.3.6",
     "lodash": "^4.17.15",
     "moment-timezone": "^0.5.27",
     "nano": "^8.1.0",
