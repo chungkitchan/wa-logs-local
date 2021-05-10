@@ -14,7 +14,7 @@
     "console-stamp": "^0.2.9",
     "dotenv": "^8.2.0",
     "fast-csv": "^3.4.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "moment-timezone": "^0.5.27",
     "nano": "^8.1.0",
     "to-boolean": "^1.0.0",
